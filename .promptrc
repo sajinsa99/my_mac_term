@@ -1,0 +1,54 @@
+function prompt_start {
+    PROMPT_TIMER=${PROMPT_TIMER:-`date +%s.%3N`}
+    echo -ne "\033]0;${@}\007"
+}
+
+gb() {
+        echo -n ' (' && git branch 2>/dev/null | grep '^*' | colrm 1 2 | tr -d '\n' && echo  -n ') '
+}
+git_branch() {
+        gb | sed 's/ ()//'
+}
+
+function my_prompt {
+    local EXIT="$?"
+    local NC="\[\e[0m\]"
+    local VERT="\e[38;5;82m"
+    local BLANC="\e[38;5;255m"
+    local BLEU="\e[38;5;27m"
+    #local ROUGE="\e[38;5;9m"
+    local ROUGE="\[\e[31;40m\]"
+    local JAUNE="\[\e[33;40m\]" # bold yellow
+
+    local PSCHAR="$"
+
+    #PS1="[$VERT\u$NC@$ROUGE\H$NC@$CYAN\D{%F %T}$NC (\#)] "
+    #title
+    PS1="\[\e]2;\u@\H \D{%F %T}\a\]"
+    #check if root
+    if [ $(id -u) -eq 0 ]; then
+        PS1+="$ROUGE\u\e[0m" # mark root as red
+    else
+        PS1+="$BLEU\u" # non root, mark user as green
+    fi
+
+    PS1+="\e[0m$NC@$BLANC\H$NC:$VERT\w${NC}$JAUNE\$(git_branch)$NC"
+
+    if [ $EXIT != 0 ]
+    then
+        PS1+="(\#) \e[1;41m ✘ ${EXIT} " # red x with error status
+    else
+        PS1+="(\#) \e[1;42m ✔ " # green tick
+    fi
+    PS1+="$NC"
+    if [ $(id -u) -eq 0 ]; then
+        PSCHAR="${ROUGE}↳ #"
+    else
+        PSCHAR="${VERT}↳ $"
+    fi
+    PS1+=" ${PSCHAR}$NC "
+    export PS1
+}
+
+trap 'prompt_start "$BASH_COMMAND"' DEBUG
+PROMPT_COMMAND=my_prompt

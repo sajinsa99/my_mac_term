@@ -1,0 +1,9 @@
+clear && printf '\e[3J'
+
+echo
+$HOME/bin/now.sh
+echo
+neofetch
+echo
+toilet -f term -F border --metal `whoami`@`hostname` $(date '+%d/%m/%Y - %T')
+echo

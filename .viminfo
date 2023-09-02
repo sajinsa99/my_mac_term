@@ -1,0 +1,502 @@
+# Ce fichier viminfo a été généré par Vim 9.0.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# Viminfo version
+|1,4
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Historique ligne de commande (chronologie décroissante) :
+:wq
+|2,0,1693335000,,"wq"
+:q
+|2,0,1693334992,,"q"
+:Q
+|2,0,1692472010,,"Q"
+:set fileencoding=utf-8
+|2,0,1691033249,,"set fileencoding=utf-8"
+:set utf8
+|2,0,1691033189,,"set utf8"
+:set bomb
+|2,0,1690137268,,"set bomb"
+:set fileencoding=utf8
+|2,0,1690137234,,"set fileencoding=utf8"
+:q1
+|2,0,1690137184,,"q1"
+:w
+|2,0,1689422425,,"w"
+:q!
+|2,0,1685932335,,"q!"
+:q!!
+|2,0,1684868211,,"q!!"
+:wq\
+|2,0,1684267343,,"wq\\"
+
+# Historique chaîne de recherche (chronologie décroissante) :
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique Ligne de débogage (chronologie décroissante) :
+
+# Registres :
+""1	LINE	0
+	12/04/2023
+|3,1,1,1,1,0,1691530520,"12/04/2023"
+"2	LINE	0
+	        CB : 4970 3070 9150 3232 - 4970307091503232 (04/23) - 780
+|3,0,2,1,1,0,1691530515,"        CB : 4970 3070 9150 3232 - 4970307091503232 (04/23) - 780"
+"3	LINE	0
+	        CB : 4970 4371 9533 6765 - 4970437195336765 (03/23) - 564
+|3,0,3,1,1,0,1691530515,"        CB : 4970 4371 9533 6765 - 4970437195336765 (03/23) - 564"
+"4	LINE	0
+	    CB : 4970 4333 3303 0105 - 4970433333030105 (05/22) - 262
+|3,0,4,1,1,0,1691530514,"    CB : 4970 4333 3303 0105 - 4970433333030105 (05/22) - 262"
+"5	LINE	0
+	Sarang997492!
+|3,0,5,1,1,0,1689422444,"Sarang997492!"
+"6	LINE	0
+	CMH_BF_Free
+|3,0,6,1,1,0,1689422443,"CMH_BF_Free"
+"7	LINE	0
+	bfablet.freeboxos.fr:11595,https://bfablet.freeboxos.fr:11595/login.php,freebox,"MyungHwan-99,74:92!",
+|3,0,7,1,1,0,1689422392,"bfablet.freeboxos.fr:11595,https://bfablet.freeboxos.fr:11595/login.php,freebox,\"MyungHwan-99,74:92!\","
+"8	LINE	0
+	82.243.240.10:88,http://82.243.240.10:88/login.php,freebox,CHOMyungHwan1974,
+|3,0,8,1,1,0,1689422392,"82.243.240.10:88,http://82.243.240.10:88/login.php,freebox,CHOMyungHwan1974,"
+"9	LINE	0
+	Dulsori99
+|3,0,9,1,1,0,1689421988,"Dulsori99"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1685932362," "
+
+# Marques dans le fichier :
+'0  97  24  ~/ici2
+|4,48,97,24,1693335000,"~/ici2"
+'1  21  144  ~/ici
+|4,49,21,144,1693334992,"~/ici"
+'2  21  144  ~/ici
+|4,50,21,144,1693334720,"~/ici"
+'3  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,51,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+'4  2  0  ~/.infos.txt
+|4,52,2,0,1691530522,"~/.infos.txt"
+'5  6  101  ~/Downloads/Iguana.csv
+|4,53,6,101,1691033251,"~/Downloads/Iguana.csv"
+'6  6  101  ~/Downloads/Iguana.csv
+|4,54,6,101,1690137271,"~/Downloads/Iguana.csv"
+'7  6  101  ~/Downloads/Iguana.csv
+|4,55,6,101,1690137236,"~/Downloads/Iguana.csv"
+'8  6  101  ~/Downloads/Iguana.csv
+|4,56,6,101,1690137236,"~/Downloads/Iguana.csv"
+'9  6  101  ~/Downloads/Iguana.csv
+|4,57,6,101,1690137184,"~/Downloads/Iguana.csv"
+
+# Liste de sauts (le plus récent en premier) :
+-'  97  24  ~/ici2
+|4,39,97,24,1693335000,"~/ici2"
+-'  1  0  ~/ici2
+|4,39,1,0,1693334994,"~/ici2"
+-'  21  144  ~/ici
+|4,39,21,144,1693334992,"~/ici"
+-'  21  144  ~/ici
+|4,39,21,144,1693334992,"~/ici"
+-'  21  144  ~/ici
+|4,39,21,144,1693334720,"~/ici"
+-'  21  144  ~/ici
+|4,39,21,144,1693334720,"~/ici"
+-'  1  0  ~/ici
+|4,39,1,0,1693334715,"~/ici"
+-'  1  0  ~/ici
+|4,39,1,0,1693334715,"~/ici"
+-'  1  0  ~/ici
+|4,39,1,0,1693334715,"~/ici"
+-'  1  0  ~/ici
+|4,39,1,0,1693334715,"~/ici"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  1  107  ~/Pictures/3_tiff/rename-tiffs.sh
+|4,39,1,107,1692381051,"~/Pictures/3_tiff/rename-tiffs.sh"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+-'  2  0  ~/.infos.txt
+|4,39,2,0,1691530522,"~/.infos.txt"
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/ici2
+	*	1693334998	0
+	"	97	24
+	^	97	25
+	.	97	24
+	+	97	24
+
+> ~/ici
+	*	1693334989	0
+	"	21	144
+	^	21	145
+	.	21	144
+	+	21	144
+
+> ~/Pictures/3_tiff/rename-tiffs.sh
+	*	1692381050	0
+	"	1	107
+	^	1	108
+	.	1	107
+	+	1	107
+
+> ~/.infos.txt
+	*	1691530521	0
+	"	2	0
+	^	17	31
+	.	2	0
+	+	17	30
+	+	2	0
+
+> ~/Downloads/Iguana.csv
+	*	1691033250	0
+	"	6	101
+
+> ~/.free.fr.txt
+	*	1689422454	0
+	"	5	13
+	^	5	14
+	.	5	13
+	+	3	8
+	+	4	12
+	+	8	101
+	+	3	0
+	+	2	15
+	+	8	0
+	+	7	51
+	+	4	0
+	+	6	0
+	+	5	13
+
+> ~/Downloads/sites.xml
+	*	1689273177	0
+	"	1	0
+
+> ~/gh/biblio-mam/clean-docker-none.sh
+	*	1685932600	0
+	"	1	0
+
+> ~/gh/biblio-mam/Dockerfile
+	*	1685932541	0
+	"	76	0
+	^	5	258
+	.	76	0
+	+	5	170
+	+	53	0
+	+	5	199
+	+	76	121
+	+	76	0
+	+	76	121
+	+	76	23
+	+	5	257
+	+	76	0
+
+> ~/gh/biblio-mam/docker-get-tag.sh
+	*	1685932083	0
+	"	1	2
+	^	1	25
+	.	1	2
+	+	1	2
+
+> ~/gh/biblio-mam/dockerrunbash.sh
+	*	1685932057	0
+	"	1	23
+	^	1	24
+	.	1	23
+	+	1	23
+
+> ~/gh/biblio-mam/dockerrun.sh
+	*	1685932038	0
+	"	1	23
+	^	1	24
+	.	1	23
+	+	1	23
+
+> ~/gh/biblio-mam/dockerbuild.sh
+	*	1685930133	0
+	"	1	23
+	^	1	24
+	.	1	23
+	+	1	23
+
+> ~/medocs.txt
+	*	1685683569	0
+	"	4	26
+	^	4	27
+	.	4	26
+	+	4	26
+
+> ~/gh/perl-calc-date/calc-date.pl
+	*	1685128998	0
+	"	1	0
+
+> ~/.generatedpwd.txt
+	*	1684903608	0
+	"	1	31
+	^	1	32
+	.	1	31
+	+	1	31
+
+> ~/MBA-2023-05-15-BF.json
+	*	1684868238	0
+	"	34	0
+
+> ~/MBA-2023-05-15-BF.log
+	*	1684868211	0
+	"	1	0
+
+> ~/gh/perl-calc-date/Dockerfile
+	*	1684322759	0
+	"	50	14
+	^	5	74
+	.	50	15
+	+	52	4
+	+	5	73
+	+	51	0
+	+	50	15
+
+> ~/brewhistory.sh
+	*	1684267345	0
+	"	1	76
+	^	1	77
+	.	1	76
+	+	1	76
+
+> ~/.mobile-maman.txt
+	*	1684203497	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+
+> ~/.mobile-papa.txt
+	*	1684203472	0
+	"	3	17
+	^	3	18
+	.	3	17
+	+	3	17
+
+> ~/bin/now.sh
+	*	1684201800	0
+	"	1	18
+	.	1	19
+	+	1	23
+	+	2	0
+	+	1	19
+
+> ~/.envrc
+	*	1684201577	0
+	"	10	6
+	^	10	7
+	.	10	6
+	+	8	16
+	+	1	0
+	+	2	0
+	+	10	20
+	+	3	31
+	+	10	6
+
+> ~/.alias
+	*	1684201549	0
+	"	37	0
+	.	32	0
+	+	38	44
+	+	32	33
+	+	11	37
+	+	35	0
+	+	32	0
+
+> ~/.profile
+	*	1684177005	0
+	"	6	0
+	^	3	17
+	.	7	0
+	+	3	16
+	+	7	0
+
+> ~/.gitconfig
+	*	1684176402	0
+	"	3	0
