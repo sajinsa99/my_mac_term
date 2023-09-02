@@ -1,0 +1,46 @@
+   28  23/05/2023 17:49:27 : brew install rsync
+   30  23/05/2023 17:49:27 : brew install vi
+   31  23/05/2023 17:49:27 : brew install bash-completion
+   53  23/05/2023 17:49:27 : brew install toilet
+   92  23/05/2023 17:49:27 : brew install diff-so-fancy
+   93  23/05/2023 17:49:27 : brew install git-lfs 
+  103  23/05/2023 17:49:27 : brew install xclip
+  109  23/05/2023 17:49:27 : brew install openssh openssl
+  142  15/05/2023 20:57:58 : brew install neofetch
+  180  15/05/2023 21:09:34 : brew install which
+  214  15/05/2023 21:33:20 : brew install gnu-which
+  234  15/05/2023 21:49:56 : brew cask install openinterminal
+  235  15/05/2023 21:50:19 : brew install --cask openinterminal
+  236  15/05/2023 22:02:48 : brew install --cask araxis-merge
+  238  15/05/2023 22:15:00 : brew install shellcheck
+  248  15/05/2023 21:59:19 : brew install pwd
+  249  15/05/2023 21:59:36 : brew install gnu-pwd
+  278  16/05/2023 03:06:39 : brew install ghostscript
+  288  16/05/2023 03:12:46 : brew install ruby
+  296  16/05/2023 03:14:50 : brew install ruby
+  348  16/05/2023 03:31:21 : brew install tar
+  349  16/05/2023 03:31:33 : brew install gnu-tar
+  359  16/05/2023 03:34:31 : brew install exa ripgrep fd
+  361  16/05/2023 03:36:12 : brew install man
+  365  16/05/2023 03:37:51 : brew install wget
+  371  16/05/2023 03:38:47 : brew install gzip
+  380  16/05/2023 03:40:20 : brew install curl
+  382  16/05/2023 03:41:02 : brew install gcc make
+  415  16/05/2023 03:48:33 : brew install env
+  418  16/05/2023 03:56:09 : brew install less tty-clock calcurse binutils ca-certificates calc diffutils findutils gawk gnu-time http-server
+  419  16/05/2023 03:59:11 : brew install openssh pstree psutils ranger unzip wtach
+  420  16/05/2023 03:59:22 : brew install openssh pstree psutils ranger unzip wach
+  421  16/05/2023 03:59:27 : brew install openssh pstree psutils ranger unzip watch
+  436  16/05/2023 04:02:15 : brew install zip
+  450  16/05/2023 04:06:16 : brew install cal
+  451  16/05/2023 04:06:31 : brew install gcal
+  461  16/05/2023 04:07:20 : brew install rm
+  462  16/05/2023 04:08:03 : brew install rm-improved
+  463  16/05/2023 04:08:36 : brew install mlocate
+  475  16/05/2023 04:16:27 : brew install tr
+  502  23/05/2023 20:51:10 : brew install chef
+  509  23/05/2023 20:53:43 : brew install --cask chef-workstation
+  315  23/07/2023 20:28:17 : brew install iconv
+  318  23/07/2023 20:28:45 : brew install file
+  361  29/07/2023 05:25:24 : brew install --cask osxfuse
+  362  29/07/2023 05:25:50 : brew install --cask osxfuse
