@@ -16,9 +16,13 @@ timestamp() { date +"%Y-%m-%d %H:%M:%S"; }
 
 backup_plist() {
   local f="$1"
-  local b="/var/tmp/$(basename "$f").bak.$(date +%s)"
-  cp -a "$f" "$b" 2>/dev/null && echo "$(timestamp) backup $f -> $b"
+  local b
+  b="/var/tmp/$(basename "$f").bak.$(date +%s)"
+
+  cp -a "$f" "$b" 2>/dev/null && \
+    echo "$(timestamp) backup $f -> $b"
 }
+
 
 toggle_location_services() {
   local action="$1"   # "disable" ou "enable"
