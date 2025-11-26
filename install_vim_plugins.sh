@@ -62,7 +62,7 @@ info "Exécution de PlugInstall..."
 vim +PlugInstall +qall || warn "PlugInstall a retourné un code non nul."
 
 # --- Install coc extensions
-COC_EXTS=(coc-pyright coc-perl coc-eslint coc-json coc-tsserver coc-sh coc-yaml coc-snippets)
+COC_EXTS=(coc-ansible coc-css coc-docker coc-eslint coc-highlight coc-html coc-java coc-json coc-just-complete coc-markdownlint coc-markdown-preview-enhanced coc-perl coc-phpactor coc-prettier coc-pylsp coc-pyright coc-sh coc-tsserver coc-xml coc-yaml)
 info "Installation extensions coc : ${COC_EXTS[*]}"
 vim -c "CocInstall -sync ${COC_EXTS[*]}" -c q \
   || warn "CocInstall en erreur. Réessaye en manuel."
@@ -75,3 +75,4 @@ printf "  - Pour installer manuellement des extensions plus tard : ouvrez vim et
  
  
 exit 0
+
