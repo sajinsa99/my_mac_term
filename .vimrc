@@ -95,6 +95,72 @@ cnoreabbrev w!! w !sudo tee % >/dev/null
 syntax enable
 filetype plugin indent on
 
+" ---------------------------
+" Plugins ajoutés (ordre recommandé)
+" ---------------------------
+
+" Utilise un gestionnaire de plugins (exemple vim-plug). Installation séparée.
+" Si tu utilises un autre gestionnaire, adapte les lignes ci-dessous.
+call plug#begin('~/.vim/plugged')
+
+" vim-surround — gère rapidement 'surroundings' : ajouter/supprimer/modifier paires (quotes, (), {}, <>).
+" Commandes principales : ys{motion}{char} (yank surround), cs{old}{new} (change surround), ds{char} (delete surround)
+" Exemples : ysiw)  -> entoure mot courant de (), cs"' -> change " en '
+Plug 'tpope/vim-surround'
+
+" vim-commentary — commenter/décommenter rapidement une ligne ou une sélection.
+" Raccourcis : gcc -> commenter/décommenter la ligne courante (normal mode)
+"             gc{motion} -> commenter le mouvement (ex: gcw)
+"             gc (en visual) -> commenter la sélection
+Plug 'tpope/vim-commentary'
+
+" vim-airline — barre d'état moderne et légère avec info fichier, encodage, branche git si disponible.
+" Raccourcis : (pas de mappings par défaut essentiels) -> configuration via airline settings si besoin.
+" Exemples de commandes utiles : :AirlineToggle pour afficher/masquer (selon installation)
+Plug 'vim-airline/vim-airline'
+
+" coc.nvim — client LSP complet (autocompletion, diagnostics, go-to, code-actions).
+" Rappels principaux (mappings fournis ci-dessous) :
+"   gd  -> go to definition
+"   gr  -> find references
+"   gi  -> go to implementation
+"   K   -> show documentation (hover)
+"   [g  / ]g -> diagnostic prev / next
+"   <leader>rn -> rename symbol
+"   <leader>ca -> code action
+" Note : coc nécessite Node.js ; branch 'release' recommandée.
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+call plug#end()
+
+" ---------------------------
+" Mappings recommandés pour coc.nvim (désactivés si tu veux config manuelle)
+" ---------------------------
+" Normal mode mappings for coc.nvim features
+" go-to / navigation
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
+" Hover documentation
+nnoremap <silent> K :call CocActionAsync('doHover')<CR>
+
+" Diagnostics navigation
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
+
+" Code actions & rename
+nmap <leader>ca <Plug>(coc-codeaction)
+nmap <leader>rn <Plug>(coc-rename)
+
+" Use <CR> to confirm completion in insert mode (optionnel — active si tu veux ce comportement)
+" inoremap <silent><expr> <CR> pumvisible() ? coc#_select_confirm() : "\<CR>"
+
+" ---------------------------
+" Fin plugins ajoutés
+" ---------------------------
+
 " Afficher les espaces et tabulations
 set list
 set listchars=tab:»─,trail:·,eol:¬,space:·,extends:>,precedes:<
