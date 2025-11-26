@@ -1,25 +1,41 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# install_vim_and_coc_exts.sh
-# Installe vim-plug (si manquant), lance PlugInstall, puis installe des extensions coc.nvim.
-# Prérequis : vim présent et Node.js (tu as Node 25.x via brew — OK).
-
-# --- Helpers
 info(){ printf '\033[1;34m[INFO]\033[0m %s\n' "$*"; }
 warn(){ printf '\033[1;33m[WARN]\033[0m %s\n' "$*"; }
 err(){ printf '\033[1;31m[ERROR]\033[0m %s\n' "$*"; exit 1; }
 
 cmd_exists(){ command -v "$1" >/dev/null 2>&1; }
 
-# --- Preconditions
-cmd_exists vim || err "vim introuvable. Installe vim et réessaie."
-cmd_exists node || err "node introuvable. Coc.nvim nécessite Node.js."
+# --- Check brew
+if ! cmd_exists brew; then
+  err "Homebrew introuvable. Installe-le et relance."
+fi
 
-# --- Ensure curl or wget
-cmd_exists curl || cmd_exists wget || err "curl ou wget requis."
+# --- Ensure vim + node + curl/wget
+ensure_pkg() {
+  local bin="$1"
+  local pkg="$2"
 
-# --- Install vim-plug if missing
+  if cmd_exists "$bin"; then
+    info "$bin déjà installé."
+  else
+    info "$bin manquant → installation via brew ($pkg)..."
+    brew install "$pkg" || err "Échec installation $pkg"
+  fi
+}
+
+ensure_pkg vim vim
+ensure_pkg node node
+# curl est souvent déjà présent sur macOS, mais on check proprement
+if ! cmd_exists curl && ! cmd_exists wget; then
+  info "curl et wget absents → installation de curl."
+  brew install curl || err "Échec installation curl"
+else
+  info "curl ou wget dispo."
+fi
+
+# --- Install vim-plug
 PLUG_PATH="${HOME}/.vim/autoload/plug.vim"
 if [ -f "$PLUG_PATH" ]; then
   info "vim-plug déjà installé."
@@ -27,36 +43,35 @@ else
   info "Installation de vim-plug..."
   if cmd_exists curl; then
     curl -fLo "$PLUG_PATH" --create-dirs \
-      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim \
-      || err "Échec du téléchargement via curl."
+      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   else
     wget -O "$PLUG_PATH" --create-dirs \
-      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim \
-      || err "Échec du téléchargement via wget."
+      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   fi
   info "vim-plug installé."
 fi
 
-# --- Verify ~/.vimrc contains Plug entries for the plugins (best-effort check)
+# --- Check .vimrc exists
 VIMRC="${HOME}/.vimrc"
 if [ ! -f "$VIMRC" ]; then
-  warn "~/.vimrc introuvable — crée le avant d'exécuter ce script (doit contenir Plug '...' pour les plugins)."
+  warn "~/.vimrc manquant. Le script suppose qu'il contient tes Plug '...'"
 fi
 
-# --- Run PlugInstall (headless)
-info "Exécution de PlugInstall (Vim va s'ouvrir en tâche de fond)..."
+# --- Install vim plugins
+info "Exécution de PlugInstall..."
 vim +PlugInstall +qall || warn "PlugInstall a retourné un code non nul."
 
-# --- Install coc extensions (non interactif)
+# --- Install coc extensions
 COC_EXTS=(coc-pyright coc-perl coc-eslint coc-json coc-tsserver coc-sh coc-yaml coc-snippets)
-info "Installation des extensions coc.nvim : ${COC_EXTS[*]}"
-# Use CocInstall -sync so the command blocks until finished
-vim -c "CocInstall -sync ${COC_EXTS[*]}" -c 'q' || warn "CocInstall a retourné un code non nul. Vérifie la connexion réseau ou relance manuellement : :CocInstall ${COC_EXTS[*]}"
+info "Installation extensions coc : ${COC_EXTS[*]}"
+vim -c "CocInstall -sync ${COC_EXTS[*]}" -c q \
+  || warn "CocInstall en erreur. Réessaye en manuel."
 
 # --- Post notes
 info "Terminé. Ouvrir vim pour laisser coc.nvim finaliser les installations si nécessaire."
 info "Remarques utiles :"
 printf "  - Certaines extensions coc invoquent des language servers ou outils externes (ex: ruff, eslint, shellcheck). Installe-les si tu veux lint/format local.\n"
 printf "  - Pour installer manuellement des extensions plus tard : ouvrez vim et exécutez :CocInstall <extension>\n"
-
+ 
+ 
 exit 0
